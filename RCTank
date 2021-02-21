@@ -1,0 +1,7 @@
+--loadstring(game:HttpGet('https://pastebin.com/raw/6exG9z0k'))() -- dont run this loadstring (doesnt do anything)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/o5u3/RC_Tank/main/Tank.txt'))()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "RC Tank Loaded!";
+    Duration = 32;
+    Callback = bindableFunction;
+})

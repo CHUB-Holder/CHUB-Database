@@ -1,0 +1,10 @@
+-- Options for ESP
+_G.options = {
+     ["Locations"] = true,
+     ["Hunters"] = true,
+     ["Traps"] = true,
+     ["Items"] = true,
+     ["Threats"] = true, -- Serpent, Turrets, etc.
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Isle/master/ESP.lua",true))() -- ESP Script

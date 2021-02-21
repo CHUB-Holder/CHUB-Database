@@ -1,0 +1,25 @@
+--[[
+Keybinds:
+L - Spawn the Nameless R6 character
+P - Switch Character
+
+R6 Character Keybinds:
+E - Do a random dance
+R - Do the dance1 dance
+T - Do the dance2 dance
+Y - Do the dance3 dance
+Z - Wave
+X - Point
+C - Laugh
+V - Cheer
+--]]
+
+spawn(function()
+    while true do
+       game:GetService("RunService").Heartbeat:Wait()
+       game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.huge;
+       setsimulationradius(math.huge);
+    end
+end)
+
+loadstring(game:GetObjects("rbxassetid://5688101100")[1].Source)()
